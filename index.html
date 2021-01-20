@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title</title>
+</head>
+<body>
+
+	<main>
+		<section>
+			<div class="form-section">
+				<div class="form-horizontal">
+					<div class="form-group">
+						<label>First Name</label>
+						<input type="text" name="firstname" id="firstname">
+					</div>
+					<div class="form-group">
+						<label>Last Name</label>
+						<input type="text" name="lastname" id="lastname">
+					</div>
+					<div class="form-btn">
+						<a href="#" class="btn btn-green">Add</a>
+					</div>
+				</div>
+			</div>
+			<div class="search-bar">
+				<input type="text" name="search" id="search" placeholder="search">
+			</div>
+			<div class="table-section">
+				<table class="table" cellpadding="0" cellspacing="0">
+					<thead>
+						<tr>
+							<th>Sl.no</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th width="220px">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- <tr>
+							<td>1</td>
+							<td class="firstnamedata">Vicky</td>
+							<td class="lastnamedata">Vulture</td>
+							<td>
+								<a href="#" class="btn btn-blue">Edit</a>
+								<a href="#" class="btn btn-red">Delete</a>
+							</td>
+						</tr> -->
+					</tbody>
+				</table>
+			</div>
+			<div class="overlay-section hide">
+				<div class="overlay-form">
+					<div class="form-horizontal">
+						<div class="form-group">
+							<label>First Name</label>
+							<input type="text" name="firstname" id="firstnameedit">
+						</div>
+						<div class="form-group">
+							<label>Last Name</label>
+							<input type="text" name="lastname" id="lastnameedit">
+						</div>
+						<div class="form-btn">
+							<a href="#" class="btn btn-orange">Update</a>
+							<a href="#" class="btn btn-lblue">Cancel</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+</body>
+</html>

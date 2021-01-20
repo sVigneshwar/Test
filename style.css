@@ -1,0 +1,113 @@
+*{box-sizing: border-box;}
+html,body{overflow-x: hidden;}
+body{font-family: sans-serif; font-size: 16px; margin: 0; padding: 0}
+img{max-width: 100%;}
+a{color: #000;text-decoration: none;}
+.clear-ul{padding: 0; margin: 0; list-style: none; }
+.clearfix:after{content: ''; display: block; clear: both; }
+.show{display: block;}
+.hide{display: none;}
+
+
+.form-section {
+    max-width: 280px;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border-radius: 6px;
+}
+
+section {
+    padding: 50px;
+}
+
+.form-group {
+    margin: 0 0 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+ input {
+    height: 30px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    color: #fff;
+    padding: 7px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.btn-green{
+ background-color: #5cb85c;
+}
+
+.btn-red{
+background-color: #d9534f;
+}
+
+.btn-blue{
+background-color: #337ab7;
+}
+.btn-orange{
+	background-color: #f0ad4e;
+}
+.btn-lblue{
+	background-color: #5bc0de;
+}
+.form-btn{
+	text-align: center;
+}
+.table {
+    width: 100%;
+}
+
+.table-section {
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+.table thead tr th {
+    text-align: left;
+    background: #ddd;
+    padding: 7px 15px;
+    border: 1px solid transparent;
+}
+
+.table tbody tr td {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 6px 15px;
+}
+.overlay-section {
+    position: fixed;
+    background: #00000091;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.overlay-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 280px;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border-radius: 6px;
+}
+.search-bar {
+    max-width: 280px;
+    margin-top: 40px;
+}
